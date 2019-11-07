@@ -1,0 +1,18 @@
+
+use_frameworks!
+
+target 'ryp_rn_supplier' do
+  pod  'Bugly'
+  pod 'UMCCommon'
+  pod 'UMCAnalytics'
+  pod 'UMCShare/UI'
+  pod 'UMCShare/Social/ReducedWeChat'
+  pod 'UMCShare/Social/ReducedQQ'
+  pod 'Fabric'
+  pod 'Crashlytics'
+  pod 'Firebase/CoreOnly'
+  pod 'Firebase/MLVision'
+  pod 'Firebase/MLVisionTextModel'
+
+end
+

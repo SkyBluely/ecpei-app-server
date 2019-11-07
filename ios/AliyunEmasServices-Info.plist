@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>config</key>
+	<dict>
+            <key>emas.appKey</key>
+            <string>25395425</string>
+            <key>emas.appSecret</key>
+            <string>6e440aaf18fd005a3fc96ac10992d81a</string>
+            <key>emas.bundleId</key>
+            <string>com.ecpei.service</string>
+            <key>hotfix.idSecret</key>
+            <string>25395425-2</string>
+            <key>hotfix.rsaSecret</key>
+            <string>MIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCy4qk0HI6Dpfj6b++5OU2GDJeK0QDkzCvhUrlCE9gwbNVdqxFt4Er1pMQgb2XKdTawMNiXbJoy2G7U2b3njTCfCkErSoBEV3kV2HlUUgGYfLHaMuoMerDBhIcpteA+eWrhGYCBhJgtiwFQo+PI2P6Cq/aDyeGj+AFxuzs45scrvZP7bRPNFnT9d+CbkwSjYzHAIxxeCzdomPeq66YJsKUaBX2VqdBmtjs+fOiORVXt7ovkBQkAxTNkxUDy4d84jMAmqF6EiUBI06Vb/1gTWXOLfZzLqOWN/gkRS0o5kVbjGv5cSxFc5MFQUkEF3dcNdKXjSMnrUHEK80k5ml6CmJ4fAgMBAAECggEAFppvWOdW1qmtKS/lsZjdA9gped/o5gAqd0E1qXTKd2v5FencvO5/akSUh6irywY+j8rMQ230mgIhFwIgbda4UxA/pdG3HWuUID+HLTFjhDoVWwXd7w+9r+YoEgwqNpqu95x6UWNIu1B6LQ9YY/OPTUGfV4211jsrK4zF8e2vMwZ+HgNNQKgueWxzLWt25NoxPDKuKmqtCnfoRhdqZ6e1pPIl68SHFTB0zmwd7naA7Suy3cFi0W2Q4XI7boOHZDKoS8B7hFK/v8PnbvVwHHbqRAIwwIcYT3AxVMj6i8J3CLL4Li4cwj1k16doFiW1pZAecyqzUy5feI3NIr1gVY1oOQKBgQDoU2GOs9TIy1cU0/vRoq1JK8iPZdQxT737qg2O3jmzQFA2BlI9rYZb//0vUU1K0TDqNAYJtAWhHu8nN4q52HmFIoSWW2NUkWeesaNvUItEajgq6X1a7f0oJhPr6n3vMvnzxqvEd1yt6J7PUZcgTQRNloKAZz6p/EnGppoGUpva+wKBgQDFHTJXAcd+8yCfc+rIB7HLUpoZURkVtEsWR8tPbmvObvfPlbJPjkLyOqr+EOcfD9xzrFcli9z2EDJiDD5y0tuZyUk903InHhk7WO9l/0XMm+TAuSbY+dMKQG/ehJZ8xDE2khbJEVzyskoBCTQkDkHJryOCTw+f1FmDi/fPVS9gLQKBgQCDmW+iiOUYVG5gYu+6wN5Nm1qBN9opkJT6MEp7yg9/JQgKgiwludxo0qmVGwWgQrzlfVCKQIoLyV0IpuKTATdcnb/i96NdbPv4HYGJdWNd/pkQXbBfSH3lNySDtxFc5FBHsRrtL/u0mxcSMpJbfqTYWlBT8afCXCFiQE7xE+wq7wKBgCRGjEYg6LL/UYimz5WCfQD7MarpFuG8rXjrO4phuuth1q9YUFl9x+pGS8O4HqDDzYFoPR2G0OJj9rG+qRt+nLV/qr/7Eu4KBwC6DEzMHu9Z3U5uhKy3xVQEqdHcusk5Xgk594GHdYCguSfZpsPf79GLLtDDdg+nB9ZCwxdgCPj9AoGAJ06hz9TlY5L086yr1m7P+JpOEyMdJ6RrQvC3bjZ9ORNoLiyi7/3BjR6NBaiWq9SatMRfzfSf/mvdR328HjDG3ky/fuoMf1mzFp5sI6baFTlnBO16qvE8PSh7NyIfZU96xNpzVerZU23pbeT6/QjxHLDt6Z9wi9zcZCP3acpG/Ew=</string>
+            <key>httpdns.accountId</key>
+            <string>167340</string>
+            <key>httpdns.secretKey</key>
+            <string>186caf2f4d2273f263dc081e452436fb</string>
+    	</dict>
+	<key>services</key>
+	<dict>
+		<key>httpdns_service</key>
+		<dict>
+			<key>status</key>
+			<integer>1</integer>
+			<key>version</key>
+			<string>1.6.19</string>
+		</dict>
+		<key>cps_service</key>
+		<dict>
+			<key>status</key>
+			<integer>1</integer>
+			<key>version</key>
+			<string>1.9.8</string>
+		</dict>
+		<key>feedback_service</key>
+		<dict>
+			<key>status</key>
+			<integer>1</integer>
+			<key>version</key>
+			<string>3.3.6</string>
+		</dict>
+		<key>man_service</key>
+		<dict>
+			<key>status</key>
+			<integer>0</integer>
+			<key>version</key>
+			<string>1.0.13</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
