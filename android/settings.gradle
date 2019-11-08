@@ -1,0 +1,72 @@
+rootProject.name = 'com.ecpei.service'
+include ':react-native-shake'
+project(':react-native-shake').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-shake/android')
+include ':react-native-webview'
+project(':react-native-webview').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-webview/android')
+include ':rn-fetch-blob'
+project(':rn-fetch-blob').projectDir = new File(rootProject.projectDir, '../node_modules/rn-fetch-blob/android')
+include ':react-native-custom-keyboard'
+project(':react-native-custom-keyboard').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-custom-keyboard/android')
+//include ':react-native-tesseract-ocr'
+//project(':react-native-tesseract-ocr').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-tesseract-ocr/android')
+include ':react-native-linear-gradient'
+project(':react-native-linear-gradient').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-linear-gradient/android')
+include ':react-native-fs'
+project(':react-native-fs').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-fs/android')
+include ':react-native-image-crop-picker'
+project(':react-native-image-crop-picker').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-image-crop-picker/android')
+include ':react-native-image-picker'
+project(':react-native-image-picker').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-image-picker/android')
+include ':react-native-syan-image-picker'
+project(':react-native-syan-image-picker').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-syan-image-picker/android')
+//include ':extend-react-native-camera'
+//project(':extend-react-native-camera').projectDir = new File(rootProject.projectDir, '../../extends/react-native-camera/android')
+include ':react-native-splash-screen'
+project(':react-native-splash-screen').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-splash-screen/android')
+//include ':react-native-webview-bridge'
+//project(':react-native-webview-bridge').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-webview-bridge/android')
+//include ':react-native-yunpeng-alipay'
+//project(':react-native-yunpeng-alipay').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-yunpeng-alipay/android')
+include ':react-native-wechat'
+project(':react-native-wechat').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-wechat/android')
+include ':react-native-picker'
+project(':react-native-picker').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-picker/android')
+include ':react-native-sound'
+project(':react-native-sound').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-sound/android')
+include ':ecpei-im-ui'
+project(':ecpei-im-ui').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-ecpei-im-ui/android')
+
+
+include ':ecpei-core'
+project(':ecpei-core').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-ecpei-core/android')
+include ':ecpei-framework'
+project(':ecpei-framework').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-ecpei-framework/android')
+include ':ecpei-common'
+project(':ecpei-common').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-ecpei-common/android')
+include ':ecpei-widgets'
+project(':ecpei-widgets').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-ecpei-widgets/android')
+include ':ecpei-camera'
+project(':ecpei-camera').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-ecpei-camera/android')
+
+include ':ecpei-customPicker'
+project(':ecpei-customPicker').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-ecpei-customPicker/android')
+
+include ':react-native-ecpei-vinscan'
+project(':react-native-ecpei-vinscan').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-ecpei-vinscan/android')
+include ':react-native-ecpei-vinscan:ecpei-vinscan-cameralib'
+include ':react-native-background-timer'
+project(':react-native-background-timer').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-background-timer/android')
+
+include ':rn-fetch-blob'
+project(':rn-fetch-blob').projectDir = new File(rootProject.projectDir, '../node_modules/rn-fetch-blob/android')
+
+//include ':realm'
+//project(':realm').projectDir = new File(rootProject.projectDir, '../node_modules/realm/android')
+
+include ':react-native-webview'
+project(':react-native-webview').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-webview/android')
+
+
+include ':app'
+
+include ':openCVLibrary341'
